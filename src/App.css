@@ -1,0 +1,22 @@
+.zoom-box {
+  transition: transform 0.2s; /* Animation */
+}
+
+.zoom-box:hover {
+  transform: scale(1.5);
+}
+
+@media screen and (max-width: 768px) {
+  .img {
+    min-width: 70%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .img {
+    min-width: 100%;
+  }
+}
+
+.skills-img {
+  width: 20%;
+}
