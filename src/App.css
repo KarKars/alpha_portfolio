@@ -20,3 +20,24 @@
 .skills-img {
   width: 20%;
 }
+
+#page {
+  margin-top: 3rem;
+}
+
+.projects-top::before {
+  display: block;
+  content: " ";
+  margin-top: -150px; /* the height of your navbar that will put the empty element up*/
+  height: 200px; /* the height of the empty element that goes behind your navbar
+  visibility: hidden; /* just in case */
+  pointer-events: none;
+}
+.skills-top::before {
+  display: block;
+  content: " ";
+  margin-top: -150px; /* the height of your navbar that will put the empty element up*/
+  height: 150px; /* the height of the empty element that goes behind your navbar
+  visibility: hidden; /* just in case */
+  pointer-events: none;
+}

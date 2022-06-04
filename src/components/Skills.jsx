@@ -9,8 +9,8 @@ import db from "../images/db.svg";
 import "../App.css";
 const Skills = () => {
   return (
-    <div className="text-light my-5 py-5" id="skills">
-      <div className="container">
+    <div className="text-light my-5 py-5 skills-top" id="skills">
+      <div className="container mt-5">
         <div className="row text-center mb-3">
           <h1>Skills</h1>
         </div>
@@ -48,7 +48,7 @@ const Skills = () => {
               <p className="fs-6">Lorem ipsum dolor sit amet.</p>
             </h1>
           </div>
-          <div className="col-md-6 col-lg-3">
+          <div className="col-md-6 col-lg-4">
             <h1>
               <img src={db} alt="js" className="skills-img" />
               <h4>databases</h4>

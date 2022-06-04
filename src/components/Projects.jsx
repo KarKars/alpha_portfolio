@@ -4,7 +4,7 @@ import { BsFillArrowUpCircleFill } from "react-icons/bs";
 import "../App.css";
 const Projects = () => {
   return (
-    <div className="container text-light mt-5" id="projects">
+    <div className="container text-light pt-5 projects-top " id="projects">
       <h1 className="text-center mb-4">Projects</h1>
       <div className="row g-4 my-5">
         <div className="col-md-6 col-lg-4">
