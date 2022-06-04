@@ -20,28 +20,34 @@ const Bio = () => {
               <div className="row justify-content-evenly align-items-center">
                 <div className="col">
                   <h2>
-                    <a href="#">
+                    <a href="mailto:yahiaoui.abdelkrim.997@gmail.com" target="_blank">
                       <ImGoogle />
                     </a>
                   </h2>
                 </div>
                 <div className="col">
                   <h2>
-                    <a href="#">
+                    <a href="https://github.com/KarKars" target="_blank">
                       <ImGithub />
                     </a>
                   </h2>
                 </div>
                 <div className="col">
                   <h2>
-                    <a href="#">
+                    <a
+                      href="https://www.linkedin.com/in/abdelkrim-yahiaoui-1a351023a/"
+                      target="_blank"
+                    >
                       <ImLinkedin />
                     </a>
                   </h2>
                 </div>
                 <div className="col">
                   <h2>
-                    <a href="#">
+                    <a
+                      href="https://drive.google.com/file/d/1v5TqeQiTFSbLbFMBBJynbzbqk_W6A6o7/view"
+                      target="_blank"
+                    >
                       <ImProfile />
                     </a>
                   </h2>
@@ -53,46 +59,44 @@ const Bio = () => {
             <div className="row ">
               <h1>biography</h1>
             </div>
-            <div className="row">
-              <h5>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim porro saepe minus
-                accusamus! Iusto dolorem blanditiis corporis dolores eaque voluptatum hic voluptas
-                ratione laudantium optio, impedit itaque quaerat sapiente, dicta et rerum veniam
-                aspernatur enim doloribus. Reiciendis, tempore officiis modi debitis consequatur
-                saepe quasi exercitationem rem officia expedita accusantium minus vel earum dolor
+            <div className="row mt-5">
+              <h4>
+                Hi, Im Yahiaoui Abdelkrim, i'm a full stack developer with 3 years of experience. I
+                have a extensive inowledge of both frontend and backend technologies.
                 <hr />
-                dolorem libero ipsum quo. Dolorum, voluptatum tempora? Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Beatae ducimus molestiae aliquam quos incidunt odio
-                minus atque! Officiis, possimus velit.
-              </h5>
+                Passionate about learning new technologies, Bringing ideas to life and working with
+                dedicated teams to build efficient and robust applications suited to the user's
+                needs
+              </h4>
               <div className="row mt-4">
                 <div className="col">
                   <h4 className="fw-bold">interests</h4>
                   <ul>
-                    <li>hello</li>
-                    <li>hello</li>
-                    <li>hello</li>
-                    <li>hello</li>
+                    <li>Databases and web storage</li>
+                    <li>frontend development</li>
+                    <li>backend development</li>
+                    <li>Data analysis</li>
                   </ul>
                 </div>
 
                 <div className="col">
                   <h4 className="fw-bold">education</h4>
                   <ul>
-                    <h5>
-                      <span>
-                        <IoSchool />
-                        &ensp;
-                      </span>
-                      hello
+                    <h5 className="fw-bold d-flex align-align-items-align-items-center">
+                      <IoSchool />
+                      &ensp;
+                      <h6 className="fw-bold text-center">Experimental science bachelor, 2016</h6>
                     </h5>
-                    <h5>
-                      <span>
-                        <IoSchool />
-                        &ensp;
-                      </span>
-                      hello
+                    <p>kasdi merbah hight school Algiers, Algeria</p>
+                    <hr />
+                    <h5 className="fw-bold d-flex align-align-items-align-items-center">
+                      <IoSchool />
+                      &ensp;
+                      <h6 className="fw-bold text-center">
+                        Master degree in civil engineering, 2021
+                      </h6>
                     </h5>
+                    <p>University Of Science And Technology Houari Boumediene</p>
                   </ul>
                 </div>
               </div>
