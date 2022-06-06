@@ -1,6 +1,6 @@
 import React from "react";
 import programmer from "../images/programmer.svg";
-import { BsFillArrowUpCircleFill } from "react-icons/bs";
+import { BsFillArrowUpCircleFill, BsGithub } from "react-icons/bs";
 import { IoArrowRedoCircleSharp } from "react-icons/io5";
 import "../App.css";
 const Projects = () => {
@@ -31,9 +31,9 @@ const Projects = () => {
               <a
                 href="https://github.com/KarKars/ShoesStore"
                 target="_blank"
-                class="btn btn-primary"
+                class="btn btn-primary my-auto"
               >
-                source Code
+                <BsGithub /> source Code
               </a>
             </div>
           </div>
@@ -59,9 +59,9 @@ const Projects = () => {
               <a
                 href="https://github.com/KarKars/ShoesStore"
                 target="_blank"
-                class="btn btn-primary"
+                className="btn btn-primary my-auto"
               >
-                source Code
+                <BsGithub /> source Code
               </a>
             </div>
           </div>

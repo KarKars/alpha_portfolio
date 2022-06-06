@@ -68,19 +68,21 @@ const Bio = () => {
               </h4>
 
               <div className="row mt-4">
-                <div className="col">
-                  <h4 className="fw-bold">interests</h4>
-                  <ul>
-                    <li>Databases and web storage</li>
-                    <li>frontend development</li>
-                    <li>backend development</li>
-                    <li>Data analysis</li>
-                  </ul>
+                <div className="col-md">
+                  <h4 className="fw-bold ">interests</h4>
+                  <div className="container ">
+                    <ul className="text-start ">
+                      <li>Databases and web storage</li>
+                      <li>frontend development</li>
+                      <li>backend development</li>
+                      <li>Data analysis</li>
+                    </ul>
+                  </div>
                 </div>
 
-                <div className="col">
+                <div className="col-md">
                   <h4 className="fw-bold">education</h4>
-                  <ul>
+                  <ul className="text-start">
                     <h5 className="fw-bold d-flex align-align-items-align-items-center">
                       <IoSchool />
                       &ensp;
