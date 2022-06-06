@@ -2,10 +2,14 @@ import React from "react";
 import { SiJavascript, SiReact } from "react-icons/si";
 import js from "../images/js.svg";
 import react from "../images/react.svg";
-import docker from "../images/docker.svg";
+import git from "../images/git.svg";
+import nextjs from "../images/nextjs.svg";
+import mongodb from "../images/mongodb.svg";
+import tailwindCSS from "../images/tailwindCSS.svg";
+import numpy from "../images/numpy.svg";
+import pandas from "../images/pandas.svg";
 import python from "../images/python.svg";
 import node from "../images/node.svg";
-import db from "../images/db.svg";
 import "../App.css";
 const Skills = () => {
   return (
@@ -14,45 +18,63 @@ const Skills = () => {
         <div className="row text-center mb-3">
           <h1>Skills</h1>
         </div>
-        <div className="row text-center gy-3">
+        <div className="row text-center gy-3 d-flex justify-content-center">
           <div className="col-md-6 col-lg-4">
             <img src={js} alt="js" className="skills-img " />
             <h4>Javascript</h4>
-            <p className="fs-6">Lorem ipsum dolor sit amet.</p>
           </div>
           <div className="col-md-6 col-lg-4">
             <h1>
               <img src={react} alt="js" className="skills-img " />
               <h4>React.js</h4>
-              <p className="fs-6">Lorem ipsum dolor sit amet.</p>
+            </h1>
+          </div>
+          <div className="col-md-6 col-lg-4">
+            <h1>
+              <img src={nextjs} alt="js" className="skills-img " />
+              <h4>next.js</h4>
+            </h1>
+          </div>
+          <div className="col-md-6 col-lg-4">
+            <h1>
+              <img src={git} alt="js" className="skills-img " />
+              <h4>git</h4>
             </h1>
           </div>
           <div className="col-md-6 col-lg-4">
             <h1>
               <img src={python} alt="js" className="skills-img" />
               <h4>python</h4>
-              <p className="fs-6">Lorem ipsum dolor sit amet.</p>
             </h1>
           </div>
           <div className="col-md-6 col-lg-4 ">
             <h1>
-              <img src={docker} alt="js" className="skills-img " />
-              <h4>docker</h4>
-              <p className="fs-6">Lorem ipsum dolor sit amet.</p>
+              <img src={mongodb} alt="js" className="skills-img " />
+              <h4>mongoDB</h4>
             </h1>
           </div>
           <div className="col-md-6 col-lg-4">
             <h1>
               <img src={node} alt="js" className="skills-img" />
               <h4>node</h4>
-              <p className="fs-6">Lorem ipsum dolor sit amet.</p>
             </h1>
           </div>
           <div className="col-md-6 col-lg-4">
             <h1>
-              <img src={db} alt="js" className="skills-img" />
-              <h4>databases</h4>
-              <p className="fs-6">Lorem ipsum dolor sit amet.</p>
+              <img src={tailwindCSS} alt="js" className="skills-img" />
+              <h4>tailwindCSS</h4>
+            </h1>
+          </div>
+          <div className="col-md-6 col-lg-4">
+            <h1>
+              <img src={numpy} alt="js" className="skills-img" />
+              <h4>numpy</h4>
+            </h1>
+          </div>
+          <div className="col-md-6 col-lg-4">
+            <h1>
+              <img src={pandas} alt="js" className="skills-img" />
+              <h4>pandas</h4>
             </h1>
           </div>
         </div>
