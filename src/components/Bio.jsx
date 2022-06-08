@@ -39,10 +39,7 @@ const Bio = () => {
                 </div>
                 <div className="col">
                   <h2>
-                    <a
-                      href="https://www.linkedin.com/in/abdelkrim-yahiaoui-1a351023a/"
-                      target="_blank"
-                    >
+                    <a href="https://www.linkedin.com/in/abdelkrim-yahiaoui/" target="_blank">
                       <ImLinkedin />
                     </a>
                   </h2>
