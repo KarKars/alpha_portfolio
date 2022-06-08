@@ -12,11 +12,13 @@ const Projects = () => {
       <div className="row g-4 my-5 d-flex justify-content-center">
         <div className=" col-md-6 col-lg-4">
           <div class="card bg-dark border-0 align-items-center text-center">
-            <img
-              src={tracker}
-              class="card-img-top mw-75 px-4 px-sm-0 img-fluid rounded"
-              alt="..."
-            />
+            <a href="https://shoes-kar.netlify.app/" target="_blank">
+              <img
+                src={tracker}
+                class="card-img-top mw-75 px-4 px-sm-0 img-fluid rounded"
+                alt="..."
+              />
+            </a>
             <div class="card-body">
               <a
                 href="https://shoes-kar.netlify.app/"
@@ -46,11 +48,13 @@ const Projects = () => {
         </div>
         <div className="col-md-6 col-lg-4">
           <div class="card bg-dark border-0 align-items-center text-center">
-            <img
-              src={cocktail}
-              class="card-img-top mw-75 px-4 px-sm-0 img-fluid rounded"
-              alt="..."
-            />
+            <a href="https://cocktail-kar.netlify.app/" target="_blank">
+              <img
+                src={cocktail}
+                class="card-img-top mw-75 px-4 px-sm-0 img-fluid rounded"
+                alt="..."
+              />
+            </a>
             <div class="card-body">
               <a
                 href="https://cocktail-kar.netlify.app/"
@@ -78,7 +82,9 @@ const Projects = () => {
         </div>
         <div className=" col-md-6 col-lg-4">
           <div class="card bg-dark border-0 align-items-center text-center">
-            <img src={menu} class="card-img-top mw-75 px-4 px-sm-0 img-fluid rounded" alt="..." />
+            <a href="https://menu-kar.netlify.app/" target="_blank">
+              <img src={menu} class="card-img-top mw-75 px-4 px-sm-0 img-fluid rounded" alt="..." />
+            </a>
             <div class="card-body">
               <a
                 href="https://menu-kar.netlify.app/"
