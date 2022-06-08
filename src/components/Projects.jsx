@@ -46,7 +46,11 @@ const Projects = () => {
         </div>
         <div className="col-md-6 col-lg-4">
           <div class="card bg-dark border-0 align-items-center text-center">
-            <img src={cocktail} class="card-img-top mw-75 px-4 px-sm-0 img-fluid" alt="..." />
+            <img
+              src={cocktail}
+              class="card-img-top mw-75 px-4 px-sm-0 img-fluid rounded"
+              alt="..."
+            />
             <div class="card-body">
               <a
                 href="https://cocktail-kar.netlify.app/"
@@ -74,7 +78,7 @@ const Projects = () => {
         </div>
         <div className=" col-md-6 col-lg-4">
           <div class="card bg-dark border-0 align-items-center text-center">
-            <img src={menu} class="card-img-top mw-75 px-4 px-sm-0 img-fluid" alt="..." />
+            <img src={menu} class="card-img-top mw-75 px-4 px-sm-0 img-fluid rounded" alt="..." />
             <div class="card-body">
               <a
                 href="https://menu-kar.netlify.app/"
