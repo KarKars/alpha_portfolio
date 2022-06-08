@@ -47,7 +47,7 @@ const Bio = () => {
                 <div className="col">
                   <h2>
                     <a
-                      href="https://drive.google.com/file/d/1EbOndMgpXPBNR8PInOvDXv2KkXt6MA2V/view"
+                      href="https://drive.google.com/file/d/1n6maO8XHcpoU3gHjCjcuAODuV0NYJ_GG/view"
                       target="_blank"
                     >
                       <ImProfile />
