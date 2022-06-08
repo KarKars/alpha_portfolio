@@ -33,56 +33,55 @@ const Skills = () => {
           <div className="col-md-6 col-lg-4">
             <h1>
               <img src={nextjs} alt="js" className="skills-img " />
-              <h4>next.js</h4>
+              <h4>Next.js</h4>
             </h1>
           </div>
           <div className="col-md-6 col-lg-4">
             <h1>
               <img src={git} alt="js" className="skills-img " />
-              <h4>git</h4>
+              <h4>Git</h4>
             </h1>
           </div>
           <div className="col-md-6 col-lg-4">
             <h1>
               <img src={python} alt="js" className="skills-img" />
-              <h4>python</h4>
+              <h4>Python</h4>
             </h1>
           </div>
           <div className="col-md-6 col-lg-4 ">
             <h1>
               <img src={mongodb} alt="js" className="skills-img " />
-              <h4>mongoDB</h4>
+              <h4>MongoDB</h4>
             </h1>
           </div>
           <div className="col-md-6 col-lg-4">
             <h1>
               <img src={node} alt="js" className="skills-img" />
-              <h4>node</h4>
+              <h4>NodeJS</h4>
             </h1>
           </div>
           <div className="col-md-6 col-lg-4">
             <h1>
               <img src={vite} alt="js" className="skills-img" />
-              <h4>vite</h4>
+              <h4>Vite</h4>
             </h1>
           </div>
-
           <div className="col-md-6 col-lg-4">
             <h1>
               <img src={tailwindCSS} alt="js" className="skills-img" />
-              <h4>tailwindCSS</h4>
+              <h4>TailwindCSS</h4>
             </h1>
           </div>
           <div className="col-md-6 col-lg-4">
             <h1>
               <img src={numpy} alt="js" className="skills-img" />
-              <h4>numpy</h4>
+              <h4>Numpy</h4>
             </h1>
           </div>
           <div className="col-md-6 col-lg-4">
             <h1>
               <img src={pandas} alt="js" className="skills-img" />
-              <h4>pandas</h4>
+              <h4>Pandas</h4>
             </h1>
           </div>
         </div>
