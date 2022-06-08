@@ -2,6 +2,7 @@ import React from "react";
 import programmer from "../images/programmer.svg";
 import { ImProfile, ImLinkedin, ImGithub, ImGoogle } from "react-icons/im";
 import { IoSchool } from "react-icons/io5";
+import portrait from "../images/portrait.svg";
 import "../App.css";
 
 const Bio = () => {
@@ -11,7 +12,11 @@ const Bio = () => {
         <div className="row">
           <div className="col-md-3">
             <div className="row justify-content-center">
-              <img src={programmer} alt="programmerImage" className="img-fluid img w-75" />
+              <img
+                src={portrait}
+                alt="programmerImage"
+                className="img-fluid img w-75 rounded-circle"
+              />
             </div>
             <div className="row text-center mt-2 justify-content-center">
               <h1>Yahiaoui Abdelkrim</h1>
@@ -45,7 +50,7 @@ const Bio = () => {
                 <div className="col">
                   <h2>
                     <a
-                      href="https://drive.google.com/file/d/1v5TqeQiTFSbLbFMBBJynbzbqk_W6A6o7/view"
+                      href="https://drive.google.com/file/d/1EbOndMgpXPBNR8PInOvDXv2KkXt6MA2V/view"
                       target="_blank"
                     >
                       <ImProfile />

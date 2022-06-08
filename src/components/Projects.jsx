@@ -1,7 +1,9 @@
 import React from "react";
-import programmer from "../images/programmer.svg";
 import { BsFillArrowUpCircleFill, BsGithub } from "react-icons/bs";
 import { IoArrowRedoCircleSharp } from "react-icons/io5";
+import cocktail from "../images/cocktail.svg";
+import menu from "../images/menu.svg";
+import tracker from "../images/tracker.svg";
 import "../App.css";
 const Projects = () => {
   return (
@@ -10,7 +12,11 @@ const Projects = () => {
       <div className="row g-4 my-5 d-flex justify-content-center">
         <div className=" col-md-6 col-lg-4">
           <div class="card bg-dark border-0 align-items-center text-center">
-            <img src={programmer} class="card-img-top w-50 mw-75 img-fluid" alt="..." />
+            <img
+              src={tracker}
+              class="card-img-top mw-75 px-4 px-sm-0 img-fluid rounded"
+              alt="..."
+            />
             <div class="card-body">
               <a
                 href="https://shoes-kar.netlify.app/"
@@ -20,13 +26,13 @@ const Projects = () => {
                 <IoArrowRedoCircleSharp className="h1" />
               </a>
               <h5 class="card-title">shoes tracker</h5>
-              <p class="card-text my-3">
-                <span className="bg-secondary p-1 rounded mx-1">HTML</span>
-                <span className="bg-secondary p-1 rounded ">CSS</span>
-                <span className="bg-secondary p-1 rounded mx-1">Javascript</span>
-                <span className="bg-secondary p-1 rounded ">React.js</span>
-                <span className="bg-secondary p-1 rounded mx-1">MongoDB</span>
-                <span className="bg-secondary p-1 rounded ">tailwindCSS</span>
+              <p class="card-text my-3 d-flex flex-wrap justify-content-center">
+                <span className="bg-secondary p-1 rounded m-1">HTML</span>
+                <span className="bg-secondary p-1 rounded m-1">CSS</span>
+                <span className="bg-secondary p-1 rounded m-1">Javascript</span>
+                <span className="bg-secondary p-1 rounded m-1">React.js</span>
+                <span className="bg-secondary p-1 rounded m-1">MongoDB</span>
+                <span className="bg-secondary p-1 rounded m-1">tailwindCSS</span>
               </p>
               <a
                 href="https://github.com/KarKars/ShoesStore"
@@ -40,7 +46,7 @@ const Projects = () => {
         </div>
         <div className="col-md-6 col-lg-4">
           <div class="card bg-dark border-0 align-items-center text-center">
-            <img src={programmer} class="card-img-top w-50 mw-75 img-fluid" alt="..." />
+            <img src={cocktail} class="card-img-top mw-75 px-4 px-sm-0 img-fluid" alt="..." />
             <div class="card-body">
               <a
                 href="https://cocktail-kar.netlify.app/"
@@ -50,16 +56,44 @@ const Projects = () => {
                 <IoArrowRedoCircleSharp className="h1" />
               </a>
               <h5 class="card-title ">Cocktail List</h5>
-              <p class="card-text my-3">
-                <span className="bg-secondary p-1 rounded mx-1">HTML</span>
-                <span className="bg-secondary p-1 rounded ">CSS</span>
-                <span className="bg-secondary p-1 rounded mx-1">Javascript</span>
-                <span className="bg-secondary p-1 rounded ">React.js</span>
+              <p class="card-text my-3 d-flex flex-wrap justify-content-center">
+                <span className="bg-secondary p-1 rounded m-1">HTML</span>
+                <span className="bg-secondary p-1 rounded m-1">CSS</span>
+                <span className="bg-secondary p-1 rounded m-1">Javascript</span>
+                <span className="bg-secondary p-1 rounded m-1">React.js</span>
               </p>
               <a
                 href="https://github.com/KarKars/ShoesStore"
                 target="_blank"
                 className="btn btn-primary my-auto"
+              >
+                <BsGithub /> source Code
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className=" col-md-6 col-lg-4">
+          <div class="card bg-dark border-0 align-items-center text-center">
+            <img src={menu} class="card-img-top mw-75 px-4 px-sm-0 img-fluid" alt="..." />
+            <div class="card-body">
+              <a
+                href="https://menu-kar.netlify.app/"
+                target="_blank"
+                className="d-flex align-items-center justify-content-center"
+              >
+                <IoArrowRedoCircleSharp className="h1" />
+              </a>
+              <h5 class="card-title">Menu</h5>
+              <p class="card-text my-3 d-flex flex-wrap justify-content-center">
+                <span className="bg-secondary p-1 rounded m-1">HTML</span>
+                <span className="bg-secondary p-1 rounded m-1">CSS</span>
+                <span className="bg-secondary p-1 rounded m-1">Javascript</span>
+                <span className="bg-secondary p-1 rounded m-1">React.js</span>
+              </p>
+              <a
+                href="https://github.com/KarKars/Menu"
+                target="_blank"
+                class="btn btn-primary my-auto"
               >
                 <BsGithub /> source Code
               </a>

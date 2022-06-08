@@ -1,5 +1,5 @@
 import React from "react";
-import { SiJavascript, SiReact } from "react-icons/si";
+import { SiJavascript, SiReact, SiExpress } from "react-icons/si";
 import js from "../images/js.svg";
 import react from "../images/react.svg";
 import git from "../images/git.svg";
@@ -10,6 +10,7 @@ import numpy from "../images/numpy.svg";
 import pandas from "../images/pandas.svg";
 import python from "../images/python.svg";
 import node from "../images/node.svg";
+import vite from "../images/vite.svg";
 import "../App.css";
 const Skills = () => {
   return (
@@ -59,6 +60,13 @@ const Skills = () => {
               <h4>node</h4>
             </h1>
           </div>
+          <div className="col-md-6 col-lg-4">
+            <h1>
+              <img src={vite} alt="js" className="skills-img" />
+              <h4>vite</h4>
+            </h1>
+          </div>
+
           <div className="col-md-6 col-lg-4">
             <h1>
               <img src={tailwindCSS} alt="js" className="skills-img" />
