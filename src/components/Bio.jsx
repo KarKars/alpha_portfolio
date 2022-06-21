@@ -32,7 +32,7 @@ const Bio = () => {
                 </div>
                 <div className="col">
                   <h2>
-                    <a href="https://github.com/KarKars" target="_blank">
+                    <a href="https://github.com/Yahiaoui-Abdelkrim" target="_blank">
                       <ImGithub />
                     </a>
                   </h2>
@@ -47,7 +47,7 @@ const Bio = () => {
                 <div className="col">
                   <h2>
                     <a
-                      href="https://drive.google.com/file/d/1n6maO8XHcpoU3gHjCjcuAODuV0NYJ_GG/view"
+                      href="https://drive.google.com/file/d/1V1XEbBezcNPIovcmNCMVXl-vg263fccz/view?usp=sharing"
                       target="_blank"
                     >
                       <ImProfile />

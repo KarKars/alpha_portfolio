@@ -11,6 +11,7 @@ import pandas from "../images/pandas.svg";
 import python from "../images/python.svg";
 import node from "../images/node.svg";
 import vite from "../images/vite.svg";
+import mysql from "../images/mysql.svg";
 import "../App.css";
 const Skills = () => {
   return (
@@ -46,6 +47,12 @@ const Skills = () => {
             <h1>
               <img src={python} alt="js" className="skills-img" />
               <h4>Python</h4>
+            </h1>
+          </div>
+          <div className="col-md-6 col-lg-4">
+            <h1>
+              <img src={mysql} alt="mysql" className="skills-img" />
+              <h4>mySQL</h4>
             </h1>
           </div>
           <div className="col-md-6 col-lg-4 ">
