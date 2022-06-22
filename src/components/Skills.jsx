@@ -1,5 +1,4 @@
 import React from "react";
-import { SiJavascript, SiReact, SiExpress } from "react-icons/si";
 import js from "../images/js.svg";
 import react from "../images/react.svg";
 import git from "../images/git.svg";
@@ -11,7 +10,12 @@ import pandas from "../images/pandas.svg";
 import python from "../images/python.svg";
 import node from "../images/node.svg";
 import vite from "../images/vite.svg";
-import mysql from "../images/mysql.svg";
+import db from "../images/db.svg";
+import autodesk from "../images/autodesk.svg";
+import ae from "../images/ae.svg";
+import pp from "../images/pp.svg";
+import ps from "../images/ps.svg";
+
 import "../App.css";
 const Skills = () => {
   return (
@@ -21,6 +25,14 @@ const Skills = () => {
           <h1>Skills</h1>
         </div>
         <div className="row text-center gy-3 d-flex justify-content-center">
+          <div className="col-md-6 col-lg-4">
+            <img src={autodesk} alt="js" className="skills-img " />
+            <h4>Autodesk Robot</h4>
+          </div>
+          <div className="col-md-6 col-lg-4">
+            <img src={autodesk} alt="robot" className="skills-img " />
+            <h4>Autodesk AutoCAD</h4>
+          </div>
           <div className="col-md-6 col-lg-4">
             <img src={js} alt="js" className="skills-img " />
             <h4>Javascript</h4>
@@ -51,8 +63,8 @@ const Skills = () => {
           </div>
           <div className="col-md-6 col-lg-4">
             <h1>
-              <img src={mysql} alt="mysql" className="skills-img" />
-              <h4>mySQL</h4>
+              <img src={db} alt="db" className="skills-img" />
+              <h4>SQL</h4>
             </h1>
           </div>
           <div className="col-md-6 col-lg-4 ">
@@ -77,6 +89,24 @@ const Skills = () => {
             <h1>
               <img src={tailwindCSS} alt="js" className="skills-img" />
               <h4>TailwindCSS</h4>
+            </h1>
+          </div>
+          <div className="col-md-6 col-lg-4">
+            <h1>
+              <img src={ae} alt="js" className="skills-img" />
+              <h4>After effect</h4>
+            </h1>
+          </div>
+          <div className="col-md-6 col-lg-4">
+            <h1>
+              <img src={ps} alt="js" className="skills-img" />
+              <h4>Photo Shop</h4>
+            </h1>
+          </div>
+          <div className="col-md-6 col-lg-4">
+            <h1>
+              <img src={pp} alt="js" className="skills-img" />
+              <h4>Premiere Pro</h4>
             </h1>
           </div>
           <div className="col-md-6 col-lg-4">
