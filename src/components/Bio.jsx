@@ -67,7 +67,7 @@ const Bio = () => {
                 3 years of experience. I have a extensive knowledge of both frontend and backend
                 technologies. Passionate about learning new technologies, Bringing ideas to life and
                 working with dedicated teams to build efficient and robust applications suited to
-                the user's needs
+                the user's needs.
               </h4>
 
               <div className="row mt-4">
@@ -75,6 +75,7 @@ const Bio = () => {
                   <h4 className="fw-bold ">interests</h4>
                   <div className="container ">
                     <ul className="text-start ">
+                      <li>Civil engineering</li>
                       <li>Databases and web storage</li>
                       <li>frontend development</li>
                       <li>backend development</li>
