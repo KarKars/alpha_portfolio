@@ -64,7 +64,7 @@ const Bio = () => {
             <div className="row mt-5">
               <h4>
                 Hi, Im Yahiaoui Abdelkrim, i'm a civil engineer and a full stack web developer with
-                3 years of experience. I have a extensive knowledge of both frontend and backend
+                3 years of experience. I have extensive knowledge of both frontend and backend
                 technologies. Passionate about learning new technologies, Bringing ideas to life and
                 working with dedicated teams to build efficient and robust applications suited to
                 the user's needs.
