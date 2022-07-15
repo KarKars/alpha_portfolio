@@ -27,7 +27,7 @@ const Projects = () => {
               >
                 <IoArrowRedoCircleSharp className="h1" />
               </a>
-              <h5 class="card-title">shoes tracker</h5>
+              <h5 class="card-title">Sales tracker</h5>
               <p class="card-text my-3 d-flex flex-wrap justify-content-center">
                 <span className="bg-secondary p-1 rounded m-1">HTML</span>
                 <span className="bg-secondary p-1 rounded m-1">CSS</span>
