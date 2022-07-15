@@ -71,7 +71,7 @@ const Projects = () => {
                 <span className="bg-secondary p-1 rounded m-1">React.js</span>
               </p>
               <a
-                href="https://github.com/KarKars/ShoesStore"
+                href="https://github.com/Yahiaoui-Abdelkrim/Karim-cocktail-list"
                 target="_blank"
                 className="btn btn-primary my-auto"
               >
